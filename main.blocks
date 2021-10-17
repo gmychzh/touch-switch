@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="{.ikr;bDeY]hu_M*)x$%" x="71" y="36"><statement name="HANDLER"><block type="device_show_leds" id="C_4h=QD7~tlyT_}0_WDP"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="controls_if" id="4]Ed}H}H5:b#eBR|%N`t"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="mbit_TouchPad" id="HqFg@I[@q[OqKS_R}z$Q"><field name="pin">DigitalPin.P0</field><field name="value">mbit_输入类.enTouch.Touch</field></block></value><statement name="DO0"><block type="device_show_leds" id="5Ab5Kf64)N+e*R=-v|hV"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="zqc^pQc7Cxe92CvB^YK@"><value name="pause"><shadow type="timePicker" id=",VmNj^)4RHZGz,k,u+b4"><field name="ms">1000</field></shadow></value></block></next></block></statement></block></next></block></statement></block></xml>
